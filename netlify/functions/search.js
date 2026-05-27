@@ -1,4 +1,4 @@
-const TOKEN = 'APP_USR-3842307979853353-052713-ce7a426c574b611d31bdb6ba7aaa7dbe-1763211909';
+
 
 exports.handler = async (event) => {
   const { q = '', limit = 50, offset = 0 } = event.queryStringParameters || {};
