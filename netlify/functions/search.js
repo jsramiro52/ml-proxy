@@ -1,4 +1,4 @@
-
+const TOKEN = process.env.ML_TOKEN
 
 exports.handler = async (event) => {
   const { q = '', limit = 50, offset = 0 } = event.queryStringParameters || {};
