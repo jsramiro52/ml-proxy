@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 exports.handler = async (event) => {
   const { q = '', limit = 50, offset = 0 } = event.queryStringParameters || {};
 
